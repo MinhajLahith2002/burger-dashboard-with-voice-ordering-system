@@ -369,7 +369,7 @@ const menuItems = [
     }
   });
   
-  // Add this to your existing removeFromCart function
+  //removeFromCart function
   function removeFromCart(itemId) {
     const itemIndex = cart.findIndex(item => item.id === itemId);
     if (itemIndex === -1) return;
